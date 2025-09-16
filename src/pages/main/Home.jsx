@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
   const auth = getAuth();
   const navigate = useNavigate();
-
+  // test
   const handleLogout = async () => {
     await auth.signOut();
     navigate("/login");
